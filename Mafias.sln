@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mafias.UI", "Mafias.UI\Mafias.UI.csproj", "{BE913CAA-1DBC-4F48-B29D-BC2376BA4D11}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mafias.UI.Tests", "Mafias.UI.Tests\Mafias.UI.Tests.csproj", "{18AE80AC-F911-47F8-8D46-C6BC01666224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mafias.IdentityServer", "Mafias.IdentityServer\Mafias.IdentityServer.csproj", "{786BE065-2E53-487C-B0F4-E1292F89CA86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{18AE80AC-F911-47F8-8D46-C6BC01666224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18AE80AC-F911-47F8-8D46-C6BC01666224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18AE80AC-F911-47F8-8D46-C6BC01666224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786BE065-2E53-487C-B0F4-E1292F89CA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786BE065-2E53-487C-B0F4-E1292F89CA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786BE065-2E53-487C-B0F4-E1292F89CA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786BE065-2E53-487C-B0F4-E1292F89CA86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AD2DCED-7FBA-4F2F-A377-615A669E6B0C}
 	EndGlobalSection
 EndGlobal
